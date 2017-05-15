@@ -1,12 +1,12 @@
 ul {
     list-style-type: none;
     position: fixed;
-    top: 0;
-    width: 100%;
+    width: 90%;
+    overflow: none;
 }
 
 li {
-    float: left;
+    float: right;
 }
 
 li a {
@@ -21,8 +21,26 @@ li a:hover {
     background-color: lightpink;
 }
 
+h1 {
+    float: left;
+    font-weight: 300;
+}
+
+#navbar {
+    display: block;
+    position: absolute;
+    top: 0px;
+}
+
+#content {
+    display: block;
+    clear: all;
+    position: absolute;
+    top: 100px;
+    
+}
+
 img {
     display: inline;
     float: left;
-    margin: 10px;
 }
