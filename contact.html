@@ -4,6 +4,12 @@
 <head>
     <title>CJN Event Planning</title>
     <link href="css/main.css" rel="stylesheet" type="text/css">
+    <style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
 </head>
 
 <body>
@@ -15,11 +21,9 @@
         <li><a href="services.html">Our Services</a></li>
         <li><a href="story.html">Our Story</a></li>
         <li><a href="index.html">Home</a></li>
+        <img src="images/cjnlogo.gif" id="logo">
+        <img src="images/cjntitle.gif" id="title">
     </ul>
-</div>
-<div id="logos">
-    <img src="images/cjnlogo.gif" id="logo">
-    <img src="images/cjntitle.gif">
 </div>
 
 <div id="content">
@@ -36,9 +40,33 @@
     <input type="submit" value="Submit">
   </form>
 </div>
+    
+<h3>Stop by our office to plan your next event!</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 35.505434, lng: -120.681745};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwI5PpXIdQZhlpWL9dExmJE673WeIpUgs&callback=initMap">
+    </script>
+</div>
+    <div class="footer">
+        <p>(805) 462-9106</p>
+        <p>info@cjneventplanning.com</p>
+        <p>CJN Event Planning<br>
+        8790 Plata Lane Suite A<br>
+        Atascadero, CA 93422</p>
 </div>
     
 </body>
-
-
 </html>

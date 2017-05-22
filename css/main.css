@@ -32,18 +32,22 @@ li a:hover {
 
 #content {
     display: block;
-    clear: all;
-    position: absolute;
-    top: 100px;
-    width: 75%;
-    margin: 20px, 20px;
+    margin: 50px, 20px;
     padding-left: 100px;
+    padding-top: 20px;
     font-family: helvetica neue, sans-serif;
     font-weight: 200;  
 }
 
 #logo {
-    display:inline-block;
+    display: block;
+    margin-bottom:5px;
+    width:300px;
+}
+
+#title {
+    display:block;
+    width:300px;
 }
 
 /* Contact Page Form */
@@ -80,9 +84,7 @@ h3 {
     font-weight: 200;
 }
 
-.footer {
-    position:fixed;
-    bottom:0;
+footer {
     width: 100%;
     background-color: #97CEBB;
     font-family: helvetica neue, sans-serif;
@@ -90,4 +92,6 @@ h3 {
     line-height: 15px;
     text-align: center;
     font-weight: 200;
+    padding: 0;
+    margin: 0;
   }
