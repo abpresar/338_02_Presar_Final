@@ -3,6 +3,9 @@ ul {
     position: fixed;
     width: 90%;
     overflow: none;
+    font-family: helvetia neue, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
 }
 
 li {
@@ -18,12 +21,7 @@ li a {
 }
 
 li a:hover {
-    background-color: lightpink;
-}
-
-h1 {
-    float: left;
-    font-weight: 300;
+    color: #97CEBB;
 }
 
 #navbar {
@@ -37,10 +35,35 @@ h1 {
     clear: all;
     position: absolute;
     top: 100px;
-    
+    font-family: helvetica neue, sans-serif;
+    font-weight: 200;  
 }
 
 img {
     display: inline;
     float: left;
+    margin: 10px, 10px;
+}
+
+#logo {
+    display:inline-block;
+}
+
+/* Contact Page Form */
+input[type=text], select, textarea {
+    padding: 10px;
+    border: 1px solid #97CEBB;
+    border-radius: 2px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+}
+
+input[type=submit] {
+    background-color: #97CEBB;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }

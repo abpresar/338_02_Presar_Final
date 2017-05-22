@@ -1,0 +1,295 @@
+Last login: Mon May 15 09:39:30 on ttys000
+grc-egypt:~ abpresar$ cd desktop
+grc-egypt:desktop abpresar$ cd 338_02_Presar_Final
+grc-egypt:338_02_Presar_Final abpresar$ git init
+Reinitialized existing Git repository in /Users/abpresar/Desktop/338_02_Presar_Final/.git/
+grc-egypt:338_02_Presar_Final abpresar$ git add -A
+grc-egypt:338_02_Presar_Final abpresar$ git commit -m "add files"
+[master 9e5c4ee] add files
+ 1 file changed, 15 insertions(+)
+grc-egypt:338_02_Presar_Final abpresar$ git add -A
+grc-egypt:338_02_Presar_Final abpresar$ git commit -m "add nav bar"
+[master c947eb9] add nav bar
+ 2 files changed, 31 insertions(+), 2 deletions(-)
+grc-egypt:338_02_Presar_Final abpresar$ git add -A
+grc-egypt:338_02_Presar_Final abpresar$ git commit -m "add images"
+[master 7a139de] add images
+ 123 files changed, 9628 insertions(+)
+ create mode 100644 Original Website/.DS_Store
+ create mode 100644 Original Website/CJN Event Planning_files/.DS_Store
+ create mode 100644 Original Website/CJN Event Planning_files/1223855322-postmessagerelay.js
+ create mode 100644 Original Website/CJN Event Planning_files/CJN Event Planning.html
+ create mode 100644 Original Website/CJN Event Planning_files/Contact - CJN Event Planning.html
+ create mode 100644 Original Website/CJN Event Planning_files/Contact - CJN Event Planning_files/1223855322-postmessagerelay.js
+ create mode 100644 Original Website/CJN Event Planning_files/Contact - CJN Event Planning_files/allthemes-view.css
+ create mode 100644 Original Website/CJN Event Planning_files/Contact - CJN Event Planning_files/analytics.js
+ create mode 100644 Original Website/CJN Event Planning_files/Contact - CJN Event Planning_files/cb=gapi(1).loaded_0
+ create mode 100644 Original Website/CJN Event Planning_files/Contact - CJN Event Planning_files/cb=gapi.loaded_0
+ create mode 100644 Original Website/CJN Event Planning_files/Contact - CJN Event Planning_files/cb=gapi.loaded_1
+ create mode 100644 Original Website/CJN Event Planning_files/Contact - CJN Event Planning_files/fastbutton.html
+ create mode 100644 Original Website/CJN Event Planning_files/Contact - CJN Event Planning_files/ga.js
+ create mode 100644 Original Website/CJN Event Planning_files/Contact - CJN Event Planning_files/images.jpeg
+ create mode 100644 Original Website/CJN Event Planning_files/Contact - CJN Event Planning_files/jot_min_view__en.js
+ create mode 100644 Original Website/CJN Event Planning_files/Contact - CJN Event Planning_files/logo.gif
+ create mode 100644 Original Website/CJN Event Planning_files/Contact - CJN Event Planning_files/overlay.css
+ create mode 100644 Original Website/CJN Event Planning_files/Contact - CJN Event Planning_files/platform.js
+ create mode 100644 Original Website/CJN Event Planning_files/Contact - CJN Event Planning_files/postmessageRelay.html
+ create mode 100644 Original Website/CJN Event Planning_files/Contact - CJN Event Planning_files/rpc-shindig_random.js
+ create mode 100644 Original Website/CJN Event Planning_files/Contact - CJN Event Planning_files/standard-css-ski-ltr-ltr.css
+ create mode 100644 Original Website/CJN Event Planning_files/Our Services - CJN Event Planning.html
+ create mode 100644 Original Website/CJN Event Planning_files/Our Services - CJN Event Planning_files/1223855322-postmessagerelay.js
+ create mode 100644 Original Website/CJN Event Planning_files/Our Services - CJN Event Planning_files/Hammers_Heavin_Jen_Rodriguez_Photography_wedding293_low-590x393.jpg
+ create mode 100644 Original Website/CJN Event Planning_files/Our Services - CJN Event Planning_files/Nolan Wedding 0472.jpg
+ create mode 100644 Original Website/CJN Event Planning_files/Our Services - CJN Event Planning_files/Nolan Wedding 0477.jpg
+ create mode 100644 Original Website/CJN Event Planning_files/Our Services - CJN Event Planning_files/allthemes-view.css
+ create mode 100644 Original Website/CJN Event Planning_files/Our Services - CJN Event Planning_files/analytics.js
+ create mode 100644 Original Website/CJN Event Planning_files/Our Services - CJN Event Planning_files/cb=gapi(1).loaded_0
+ create mode 100644 Original Website/CJN Event Planning_files/Our Services - CJN Event Planning_files/cb=gapi.loaded_0
+ create mode 100644 Original Website/CJN Event Planning_files/Our Services - CJN Event Planning_files/cb=gapi.loaded_1
+ create mode 100644 Original Website/CJN Event Planning_files/Our Services - CJN Event Planning_files/fastbutton.html
+ create mode 100644 Original Website/CJN Event Planning_files/Our Services - CJN Event Planning_files/ga.js
+ create mode 100644 Original Website/CJN Event Planning_files/Our Services - CJN Event Planning_files/images.jpeg
+ create mode 100644 Original Website/CJN Event Planning_files/Our Services - CJN Event Planning_files/jot_min_view__en.js
+ create mode 100644 Original Website/CJN Event Planning_files/Our Services - CJN Event Planning_files/logo.gif
+ create mode 100644 Original Website/CJN Event Planning_files/Our Services - CJN Event Planning_files/overlay.css
+ create mode 100644 Original Website/CJN Event Planning_files/Our Services - CJN Event Planning_files/platform.js
+ create mode 100644 Original Website/CJN Event Planning_files/Our Services - CJN Event Planning_files/postmessageRelay.html
+ create mode 100644 Original Website/CJN Event Planning_files/Our Services - CJN Event Planning_files/rpc-shindig_random.js
+ create mode 100644 Original Website/CJN Event Planning_files/Our Services - CJN Event Planning_files/standard-css-ski-ltr-ltr.css
+ create mode 100644 Original Website/CJN Event Planning_files/Our Story & Our Team - CJN Event Planning.html
+ create mode 100644 Original Website/CJN Event Planning_files/Our Story & Our Team - CJN Event Planning_files/1223855322-postmessagerelay.js
+ create mode 100644 Original Website/CJN Event Planning_files/Our Story & Our Team - CJN Event Planning_files/allthemes-view.css
+ create mode 100644 Original Website/CJN Event Planning_files/Our Story & Our Team - CJN Event Planning_files/analytics.js
+ create mode 100644 Original Website/CJN Event Planning_files/Our Story & Our Team - CJN Event Planning_files/cb=gapi(1).loaded_0
+ create mode 100644 Original Website/CJN Event Planning_files/Our Story & Our Team - CJN Event Planning_files/cb=gapi.loaded_0
+ create mode 100644 Original Website/CJN Event Planning_files/Our Story & Our Team - CJN Event Planning_files/cb=gapi.loaded_1
+ create mode 100644 Original Website/CJN Event Planning_files/Our Story & Our Team - CJN Event Planning_files/cjn family small.jpg
+ create mode 100644 Original Website/CJN Event Planning_files/Our Story & Our Team - CJN Event Planning_files/fastbutton.html
+ create mode 100644 Original Website/CJN Event Planning_files/Our Story & Our Team - CJN Event Planning_files/ga.js
+ create mode 100644 Original Website/CJN Event Planning_files/Our Story & Our Team - CJN Event Planning_files/images.jpeg
+ create mode 100644 Original Website/CJN Event Planning_files/Our Story & Our Team - CJN Event Planning_files/jot_min_view__en.js
+ create mode 100644 Original Website/CJN Event Planning_files/Our Story & Our Team - CJN Event Planning_files/logo.gif
+ create mode 100644 Original Website/CJN Event Planning_files/Our Story & Our Team - CJN Event Planning_files/overlay.css
+ create mode 100644 Original Website/CJN Event Planning_files/Our Story & Our Team - CJN Event Planning_files/platform.js
+ create mode 100644 Original Website/CJN Event Planning_files/Our Story & Our Team - CJN Event Planning_files/postmessageRelay.html
+ create mode 100644 Original Website/CJN Event Planning_files/Our Story & Our Team - CJN Event Planning_files/rpc-shindig_random.js
+ create mode 100644 Original Website/CJN Event Planning_files/Our Story & Our Team - CJN Event Planning_files/standard-css-ski-ltr-ltr.css
+ create mode 100644 Original Website/CJN Event Planning_files/Testimonials - CJN Event Planning.html
+ create mode 100644 Original Website/CJN Event Planning_files/Testimonials - CJN Event Planning_files/1223855322-postmessagerelay.js
+ create mode 100644 Original Website/CJN Event Planning_files/Testimonials - CJN Event Planning_files/19350_283543000769_8122371_a.jpg
+ create mode 100644 Original Website/CJN Event Planning_files/Testimonials - CJN Event Planning_files/allthemes-view.css
+ create mode 100644 Original Website/CJN Event Planning_files/Testimonials - CJN Event Planning_files/analytics.js
+ create mode 100644 Original Website/CJN Event Planning_files/Testimonials - CJN Event Planning_files/cb=gapi(1).loaded_0
+ create mode 100644 Original Website/CJN Event Planning_files/Testimonials - CJN Event Planning_files/cb=gapi.loaded_0
+ create mode 100644 Original Website/CJN Event Planning_files/Testimonials - CJN Event Planning_files/cb=gapi.loaded_1
+ create mode 100644 Original Website/CJN Event Planning_files/Testimonials - CJN Event Planning_files/fastbutton.html
+ create mode 100644 Original Website/CJN Event Planning_files/Testimonials - CJN Event Planning_files/ga.js
+ create mode 100644 Original Website/CJN Event Planning_files/Testimonials - CJN Event Planning_files/images(1).jpeg
+ create mode 100644 Original Website/CJN Event Planning_files/Testimonials - CJN Event Planning_files/images.jpeg
+ create mode 100644 Original Website/CJN Event Planning_files/Testimonials - CJN Event Planning_files/jot_min_view__en.js
+ create mode 100644 Original Website/CJN Event Planning_files/Testimonials - CJN Event Planning_files/logo-with-tag-80-0edb0ed68b6272753c49ddcd416c961c.png
+ create mode 100644 Original Website/CJN Event Planning_files/Testimonials - CJN Event Planning_files/logo.gif
+ create mode 100644 Original Website/CJN Event Planning_files/Testimonials - CJN Event Planning_files/overlay.css
+ create mode 100644 Original Website/CJN Event Planning_files/Testimonials - CJN Event Planning_files/platform.js
+ create mode 100644 Original Website/CJN Event Planning_files/Testimonials - CJN Event Planning_files/postmessageRelay.html
+ create mode 100644 Original Website/CJN Event Planning_files/Testimonials - CJN Event Planning_files/rpc-shindig_random.js
+ create mode 100644 Original Website/CJN Event Planning_files/Testimonials - CJN Event Planning_files/safe_image.php.jpeg
+ create mode 100644 Original Website/CJN Event Planning_files/Testimonials - CJN Event Planning_files/standard-css-ski-ltr-ltr.css
+ create mode 100644 Original Website/CJN Event Planning_files/allthemes-view.css
+ create mode 100644 Original Website/CJN Event Planning_files/analytics.js
+ create mode 100644 Original Website/CJN Event Planning_files/cb=gapi(1).loaded_0
+ create mode 100644 Original Website/CJN Event Planning_files/cb=gapi.loaded_0
+ create mode 100644 Original Website/CJN Event Planning_files/cb=gapi.loaded_1
+ create mode 100644 Original Website/CJN Event Planning_files/fastbutton.html
+ create mode 100644 Original Website/CJN Event Planning_files/ga.js
+ create mode 100644 Original Website/CJN Event Planning_files/images.jpeg
+ create mode 100644 Original Website/CJN Event Planning_files/j0769_buoncristiani__3811.jpg
+ create mode 100644 Original Website/CJN Event Planning_files/jot_min_view__en.js
+ create mode 100644 Original Website/CJN Event Planning_files/logo.gif
+ create mode 100644 Original Website/CJN Event Planning_files/overlay.css
+ create mode 100644 Original Website/CJN Event Planning_files/platform.js
+ create mode 100644 Original Website/CJN Event Planning_files/postmessageRelay.html
+ create mode 100644 Original Website/CJN Event Planning_files/rpc-shindig_random.js
+ create mode 100644 Original Website/CJN Event Planning_files/standard-css-ski-ltr-ltr.css
+ create mode 100644 images/.DS_Store
+ create mode 100644 images/barn.png
+ create mode 100644 images/blue.png
+ create mode 100644 images/bride.png
+ create mode 100644 images/brownies.png
+ create mode 100644 images/cake.png
+ create mode 100644 images/couple.png
+ create mode 100644 images/dessertbar.png
+ create mode 100644 images/desserts.png
+ create mode 100644 images/flowerboxes.png
+ create mode 100644 images/indianwedding.png
+ create mode 100644 images/lemonadecart.png
+ create mode 100644 images/lights.png
+ create mode 100644 images/navy.png
+ create mode 100644 images/outdoor.png
+ create mode 100644 images/outdoorwedding.png
+ create mode 100644 images/photowall.png
+ create mode 100644 images/rings.png
+ create mode 100644 images/sign.png
+ create mode 100644 images/sunflower.png
+ create mode 100644 images/table.png
+ create mode 100644 images/tablesetting.png
+ create mode 100644 images/winery.png
+ create mode 100644 portfolio.html
+grc-egypt:338_02_Presar_Final abpresar$ git log
+commit 7a139de908c9e840ad118c753b534cd7c46c17a6
+Author: abpresar <abpresar@calpoly.edu>
+Date:   Mon May 15 10:50:04 2017 -0700
+
+    add images
+
+commit c947eb90ec22cb71617434807775e706efb08146
+Author: abpresar <abpresar@calpoly.edu>
+Date:   Mon May 15 10:03:40 2017 -0700
+
+    add nav bar
+
+commit 9e5c4ee8dbb8d22989c5d69bb3fdd1bd61a3fb5b
+Author: abpresar <abpresar@calpoly.edu>
+Date:   Mon May 15 09:52:40 2017 -0700
+
+    add files
+
+commit 66f41d212119af3fc20ccce78d4f55980abd6338
+Author: abpresar <abpresar@calpoly.edu>
+Date:   Mon May 15 09:40:36 2017 -0700
+
+    add files
+grc-egypt:338_02_Presar_Final abpresar$ git add -A
+grc-egypt:338_02_Presar_Final abpresar$ git commit -m "link to our team page"
+[master 5c8cad7] link to our team page
+ 4 files changed, 72 insertions(+), 10 deletions(-)
+ create mode 100644 images/team.png
+ create mode 100644 story.html
+grc-egypt:338_02_Presar_Final abpresar$ git add -A
+grc-egypt:338_02_Presar_Final abpresar$ git commit -m "link services page"
+[master a8db097] link services page
+ 2 files changed, 53 insertions(+)
+ create mode 100644 services.html
+grc-egypt:338_02_Presar_Final abpresar$ git add -A
+grc-egypt:338_02_Presar_Final abpresar$ git commit -m "add testimonials"
+[master 266ddc3] add testimonials
+ 2 files changed, 76 insertions(+), 5 deletions(-)
+ create mode 100644 testimonials.html
+grc-egypt:338_02_Presar_Final abpresar$ git add -A
+grc-egypt:338_02_Presar_Final abpresar$ git commit -m "link to contact page"
+[master 2211717] link to contact page
+ 2 files changed, 41 insertions(+), 5 deletions(-)
+ create mode 100644 contact.html
+grc-egypt:338_02_Presar_Final abpresar$ git log
+commit 221171718508066ceeaeb37b17336cf436fa6d4b
+Author: abpresar <abpresar@calpoly.edu>
+Date:   Mon May 15 11:47:38 2017 -0700
+
+    link to contact page
+
+commit 266ddc30738dd1aca7be6b6c2c21739de418df54
+Author: abpresar <abpresar@calpoly.edu>
+Date:   Mon May 15 11:42:40 2017 -0700
+
+    add testimonials
+
+commit a8db097abbcec4d3bb5eaeb369a944e26756223d
+Author: abpresar <abpresar@calpoly.edu>
+Date:   Mon May 15 11:28:59 2017 -0700
+
+    link services page
+
+commit 5c8cad7d96004ed77e6cf664ceb860a2a7c00bbc
+Author: abpresar <abpresar@calpoly.edu>
+Date:   Mon May 15 11:19:58 2017 -0700
+
+    link to our team page
+
+commit 7a139de908c9e840ad118c753b534cd7c46c17a6
+Author: abpresar <abpresar@calpoly.edu>
+Date:   Mon May 15 10:50:04 2017 -0700
+
+    add images
+
+commit c947eb90ec22cb71617434807775e706efb08146
+Author: abpresar <abpresar@calpoly.edu>
+Date:   Mon May 15 10:03:40 2017 -0700
+
+    add nav bar
+
+commit 9e5c4ee8dbb8d22989c5d69bb3fdd1bd61a3fb5b
+Author: abpresar <abpresar@calpoly.edu>
+Date:   Mon May 15 09:52:40 2017 -0700
+
+    add files
+
+commit 66f41d212119af3fc20ccce78d4f55980abd6338
+Author: abpresar <abpresar@calpoly.edu>
+Date:   Mon May 15 09:40:36 2017 -0700
+
+    add files
+
+commit 221171718508066ceeaeb37b17336cf436fa6d4b
+Author: abpresar <abpresar@calpoly.edu>
+Date:   Mon May 15 11:47:38 2017 -0700
+
+    link to contact page
+
+commit 266ddc30738dd1aca7be6b6c2c21739de418df54
+Author: abpresar <abpresar@calpoly.edu>
+Date:   Mon May 15 11:42:40 2017 -0700
+
+    add testimonials
+
+commit a8db097abbcec4d3bb5eaeb369a944e26756223d
+Author: abpresar <abpresar@calpoly.edu>
+Date:   Mon May 15 11:28:59 2017 -0700
+
+    link services page
+
+commit 5c8cad7d96004ed77e6cf664ceb860a2a7c00bbc
+Author: abpresar <abpresar@calpoly.edu>
+Date:   Mon May 15 11:19:58 2017 -0700
+
+    link to our team page
+
+commit 7a139de908c9e840ad118c753b534cd7c46c17a6
+Author: abpresar <abpresar@calpoly.edu>
+Date:   Mon May 15 10:50:04 2017 -0700
+
+    add images
+
+commit c947eb90ec22cb71617434807775e706efb08146
+Author: abpresar <abpresar@calpoly.edu>
+Date:   Mon May 15 10:03:40 2017 -0700
+
+    add nav bar
+
+commit 9e5c4ee8dbb8d22989c5d69bb3fdd1bd61a3fb5b
+Author: abpresar <abpresar@calpoly.edu>
+Date:   Mon May 15 09:52:40 2017 -0700
+
+    add files
+
+commit 66f41d212119af3fc20ccce78d4f55980abd6338
+Author: abpresar <abpresar@calpoly.edu>
+Date:   Mon May 15 09:40:36 2017 -0700
+
+    add files
+
+[1]+  Stopped                 git log
+grc-egypt:338_02_Presar_Final abpresar$ git status
+On branch master
+nothing to commit, working tree clean
+grc-egypt:338_02_Presar_Final abpresar$ git remote add origin https://github.com/abpresar/338_02_Presar_Final.git
+grc-egypt:338_02_Presar_Final abpresar$ git push -u origin master
+Counting objects: 111, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (110/110), done.
+Writing objects: 100% (111/111), 2.36 MiB | 1.73 MiB/s, done.
+Total 111 (delta 36), reused 0 (delta 0)
+remote: Resolving deltas: 100% (36/36), done.
+To https://github.com/abpresar/338_02_Presar_Final.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+grc-egypt:338_02_Presar_Final abpresar$ 
