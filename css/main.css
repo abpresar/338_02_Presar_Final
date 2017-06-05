@@ -49,6 +49,8 @@ table {
    v2.0 | 20110126
    License: none (public domain) */
 
+
+/* Start of Nav and logo CSS */
 nav {
     list-style-type: none;
     text-align: center;
@@ -83,15 +85,6 @@ ul {
     margin: 20px 0px;
 }
 
-#content {
-    display: block;
-    margin: 50px, 20px;
-    padding-left: 100px;
-    padding-top: 20px;
-    font-family: "Helvetica Neue", sans-serif;
-    font-weight: 200;  
-}
-
 #logo {
     display: inline-block;
     margin-bottom:10px;
@@ -106,84 +99,6 @@ ul {
     width:400px;
     vertical-align: top;
     margin: auto;
-}
-
-/* Contact Page Form */
-input[type=text], select, textarea {
-    padding: 10px;
-    border: 1px solid #97CEBB;
-    border-radius: 4px; 
-    box-sizing: border-box;
-    align-content: baseline;
-}
-
-input[type=submit] {
-    background-color: #97CEBB;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-#gallery {
-    width: 90%;
-    margin: auto;
-    align-content: center;
-}
-
-.hpicture {
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    width: 250px;
-    height: 170px;
-}
-
-.vpicture {
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    height:246.5px;
-}
-
-h2 {
-    font-family: "Helvetica Neue", sans-serif;
-    font-weight: 300;
-    margin: 0px auto 10px auto;
-}
-
-h3 {
-    font-family: "Helvetica Neue", sans-serif;
-    font-weight: 200;
-}
-
-footer {
-    width: 100%;
-    background-color: #97CEBB;
-    padding: 0;
-    margin: 0;
-  }
-
-#footerinfo {
-    font-family: "Helvetica Neue", sans-serif;
-    font-size: 12px;
-    line-height: 14.5px;
-    margin: auto;
-    font-weight: 200; 
-    width: 150px;
-    padding: 2px;
-    text-align: center;
-}
-
-#testimonials {
-    width: 75%;
-    margin: auto;
-    padding-top: 150px;
-    font-family: "Helvetica Neue", sans-serif;
-    font-weight: 200;
-    font-size: 14px;
-    line-height: 17px;
 }
 
 #center {
@@ -204,3 +119,106 @@ background-image {
     background-position: center center fixed no-repeat;
     background-size: cover;
 }
+/* End of Nav and logo CSS */
+
+
+/* Start of Contact Page */
+input[type=text], select, textarea {
+    padding: 10px;
+    border: 1px solid #97CEBB;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    align-content: baseline;
+    margin: 10px 0px;
+}
+
+input[type=submit] {
+    background-color: #97CEBB;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin: 10px 0px;
+}
+/* End of Contact Page */
+
+
+/* Start of Portfolio Page */
+#gallery {
+    width: 90%;
+    margin: auto;
+    align-content: center;
+}
+
+.hpicture {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 250px;
+    height: 170px;
+}
+
+.vpicture {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    height:246.5px;
+}
+/* End of Portfolio Page */
+
+
+#content {
+    display: block;
+    margin: 50px, 20px;
+    padding-left: 100px;
+    padding-top: 20px;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 200;  
+}
+
+h2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 300;
+    margin: 0px auto 10px auto;
+}
+
+h3 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 200;
+}
+
+/* Start of Testimonials Page */
+#testimonials {
+    width: 75%;
+    margin: auto;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+hr {
+    border-color: #97CEBB;
+}
+/* End of Testimonials Page */
+
+
+/* Start of Footer CSS */
+footer {
+    width: 100%;
+    background-color: #97CEBB;
+    padding: 0;
+    margin: 0;
+  }
+
+#footerinfo {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 12px;
+    line-height: 14.5px;
+    margin: auto;
+    font-weight: 200; 
+    width: 150px;
+    padding: 2px;
+    text-align: center;
+}
+/* End of Footer CSS */
