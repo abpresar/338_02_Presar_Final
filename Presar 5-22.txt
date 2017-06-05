@@ -1,0 +1,41 @@
+cd Last login: Mon May 22 09:18:05 on ttys000
+degrc-egypt:~ abpresar$ cd desktop
+grc-egypt:desktop abpresar$ cd 338_02_Presar_Final
+grc-egypt:338_02_Presar_Final abpresar$ git add -A
+grc-egypt:338_02_Presar_Final abpresar$ git commit -m "add portfolio"
+[master b545c38] add portfolio
+ 10 files changed, 25 insertions(+), 26 deletions(-)
+ rewrite images/cake.png (99%)
+ rewrite images/flowerboxes.png (99%)
+ rewrite images/lemonadecart.png (99%)
+ rewrite images/lights.png (98%)
+ rewrite images/navy.png (99%)
+ rewrite images/photowall.png (99%)
+grc-egypt:338_02_Presar_Final abpresar$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+grc-egypt:338_02_Presar_Final abpresar$ git add -A
+grc-egypt:338_02_Presar_Final abpresar$ git commit -m "add footer"
+[master 8aaa962] add footer
+ 4 files changed, 42 insertions(+), 14 deletions(-)
+grc-egypt:338_02_Presar_Final abpresar$ git add -A
+grc-egypt:338_02_Presar_Final abpresar$ git commit -m "add google maps"
+[master 87d766b] add google maps
+ 8 files changed, 93 insertions(+), 43 deletions(-)
+grc-egypt:338_02_Presar_Final abpresar$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+grc-egypt:338_02_Presar_Final abpresar$ git push
+Counting objects: 71, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (71/71), done.
+Writing objects: 100% (71/71), 1.07 MiB | 1.84 MiB/s, done.
+Total 71 (delta 27), reused 0 (delta 0)
+remote: Resolving deltas: 100% (27/27), completed with 7 local objects.
+To https://github.com/abpresar/338_02_Presar_Final.git
+   2211717..87d766b  master -> master
+grc-egypt:338_02_Presar_Final abpresar$ 
