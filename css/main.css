@@ -3,7 +3,7 @@
    License: none (public domain) */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -79,6 +79,10 @@ a:hover {
     text-decoration: none;
 }
 
+ul {
+    margin: 20px 0px;
+}
+
 #content {
     display: block;
     margin: 50px, 20px;
@@ -93,7 +97,8 @@ a:hover {
     margin-bottom:10px;
     width:400px;
     vertical-align: top;
-    
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 #title {
@@ -147,8 +152,8 @@ footer {
 
 #footerinfo {
     font-family: "Helvetica Neue", sans-serif;
-    font-size: 11px;
-    line-height: 14px;
+    font-size: 12px;
+    line-height: 14.5px;
     margin: auto;
     font-weight: 200; 
     width: 150px;
@@ -167,9 +172,9 @@ footer {
 }
 
 #center {
-    width: 75%;
+    width: 65%;
     margin: auto;
-    padding-top: 150px;
+    padding: 50px;
     font-family: "Helvetica Neue", sans-serif;
     font-weight: 200;
     font-size: 14px;
