@@ -127,9 +127,24 @@ input[type=submit] {
 }
 
 #gallery {
-    margin: auto;
     width: 90%;
-    margin: 7.5%;
+    margin: auto;
+    align-content: center;
+}
+
+.hpicture {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 250px;
+    height: 170px;
+}
+
+.vpicture {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    height:246.5px;
 }
 
 h2 {
